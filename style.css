@@ -105,14 +105,13 @@ li a:hover{
     background-attachment: fixed;
     background-color: white;
     color: white;
-    background-position: -70px 20px;
+    background-position: -45px 20px;
 }
 #name{
     font-family: 'Shorelines-Bold';
     text-align: center;
     color: black;
     font-size: 75pt;
-    position: absolute;
     margin-top: 10px;
 }
 #contact{
