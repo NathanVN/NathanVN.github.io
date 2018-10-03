@@ -1,0 +1,167 @@
+body{
+    font-family: 'Neutra-Text-Light-Demi_32117'; /*Other fonts I can use; Valera Round, Quicksand, Shorelines, Cinzel*/
+    font-size: 16pt;
+    background-image: url("vinyl.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+}
+
+h1, h3, h2{
+    font-family: 'Kaufmann-Regular';
+    font-size: 32pt;
+}
+#nav{
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,.40);
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-left: 14px;
+    font-weight: bold;
+}
+#nav li a:hover{
+    text-shadow: 2px 2px #686868;
+    color: white;
+}
+#nav a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+#nav a:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(.80);
+    transform: scaleX(.80);
+}
+#content{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255,255,255,.40);
+    margin-top: 40px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(0,0,0,.15);
+}
+table{
+    margin: auto;
+}
+#content ul{
+    width: 18%;
+    margin: auto;
+    text-align: left;
+}
+#content ol{
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+li a:hover{
+    text-shadow: 2px 2px 5px #bbb;
+}
+#image{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#monkey{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+#index{
+    font-family: 'Neutra-Text-Light-Demi_32117'; /*Other fonts I can use; Valera Round, Quicksand, Shorelines, Cinzel*/
+    font-size: 16pt;
+    background-image: url("sharpie.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: white;
+    color: white;
+    background-position: -70px 20px;
+}
+#name{
+    font-family: 'Shorelines-Bold';
+    text-align: center;
+    color: black;
+    font-size: 75pt;
+    position: absolute;
+    margin-top: 10px;
+}
+#contact{
+    font-family: 'Neutra-Text-Light-Demi_32117';
+    font-size: 18pt;
+    color: black;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+#resumebody{
+    font-family: 'Neutra-Text-Light-Demi_32117'; /*Other fonts I can use; Valera Round, Quicksand, Shorelines, Cinzel*/
+    font-size: 16pt;
+    background-image: url("feedback.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+}
+#portfolio{
+    font-family: 'Neutra-Text-Light-Demi_32117'; /*Other fonts I can use; Valera Round, Quicksand, Shorelines, Cinzel*/
+    font-size: 16pt;
+    background-image: url("rise.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+}
+#resumeul ul{
+    width: 55%;
+    margin: auto;
+    text-align: left;
+}
+#resume{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255,255,255,.40);
+    margin-top: 40px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(0,0,0,.35);
+}
+#resume ul{
+    width: 35%;
+    margin: auto;
+    text-align: left;
+}
