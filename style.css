@@ -96,6 +96,11 @@ li a:hover{
     border-width: 2px;
     border-color: white;
 }
+#mejaman{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
 #index{
     font-family: 'Neutra-Text-Light-Demi_32117'; /*Other fonts I can use; Valera Round, Quicksand, Shorelines, Cinzel*/
     font-size: 16pt;
@@ -135,7 +140,7 @@ li a:hover{
 #portfolio{
     font-family: 'Neutra-Text-Light-Demi_32117'; /*Other fonts I can use; Valera Round, Quicksand, Shorelines, Cinzel*/
     font-size: 16pt;
-    background-image: url("rise.png");
+    background-image: url("city.png");
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
