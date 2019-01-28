@@ -101,6 +101,11 @@ li a:hover{
     border-width: 2px;
     border-color: white;
 }
+#flowchart{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
 #index{
     font-family: 'Neutra-Text-Light-Demi_32117'; /*Other fonts I can use; Valera Round, Quicksand, Shorelines, Cinzel*/
     font-size: 16pt;
